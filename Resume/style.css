@@ -1,0 +1,136 @@
+body{
+    max-width: 1440px;
+    background-color: rgb(215, 204, 206);
+    font-family: sans-serif;
+    margin: 0px;
+}
+.nav_joy{
+    width: 1440px;
+    height: 110px;
+    border: none;
+}
+.navbar{
+    width: 1440px;
+    height: 110px;
+    border: 1px solid white;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    margin-top: 0px;
+}
+.rectangle{
+    width: 24px;
+    height: 24px;
+    border: 1px solid blue;
+    background-color: blue;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+.logo{
+    
+    font-size: 25px;
+    margin-top: 45px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: block;
+}
+.nav_job{
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+.items{
+    margin-left: 470px;
+    margin-top: 50px;
+}
+.item{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+}
+.item:hover{
+    color: blue;
+}
+.square{
+    width: 13px;
+    height: 13px;
+    background-color: blue;
+}
+
+.resume{
+    display: flex;
+    margin: 30px auto;
+
+    justify-content: center;
+}
+.resume b{
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: -7px;
+}
+.ed{
+    display: flex;
+    width: 600px;
+    margin-top: 50px;
+    margin: 50px auto;
+}
+.ed .experience{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.ed button{
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 90px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    margin-left: 390px;
+}   
+.ed button:hover{
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 90px;
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    cursor: pointer;
+    padding: 7px 10px;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    background-color: white;
+    padding: 40px;
+    margin-top: 40px;
+    box-shadow: 0 0 10px grey;
+    margin: 50px auto;
+}
+.col1 > p{
+    font-size: 14px;
+}
+.col2{
+    width: 290px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.final_box{
+    width: 500px;
+    background-color: white;
+    padding: 40px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px grey;
+    margin: 50px auto;
+}
+.education{
+    margin-left: 210px;
+}
